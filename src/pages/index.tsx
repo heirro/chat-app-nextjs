@@ -69,6 +69,11 @@ const Index: React.FC = () => {
   };
 
   return (
+  <>
+  <head>
+    <title>ChatApp | NextJS + Socket.io</title>
+  </head>
+  <body>
     <div tw="flex flex-col w-full h-screen">
       <div tw="py-4 text-white  bg-blue-500 sticky top-0">
         <h1 tw="text-center text-2xl font-semibold">Realtime Chat App</h1>
@@ -126,6 +131,8 @@ const Index: React.FC = () => {
         </div>
       </div>
     </div>
+      </body>
+    </>
   );
 };
 
