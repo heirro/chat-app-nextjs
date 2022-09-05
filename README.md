@@ -30,7 +30,3 @@ Open multiple browser windows and start a chat to see it in action.
 
 This example doesn't run in a serverless environment.
 A running server instance is still needed.
-
-## Check a DEMO
-
-Check the code and test this example in [Codesandbox](https://codesandbox.io/s/nextjs-socketio-chat-piffv)
